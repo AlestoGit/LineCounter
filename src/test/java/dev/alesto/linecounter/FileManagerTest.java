@@ -58,6 +58,6 @@ public class FileManagerTest {
     FileManager fm = new FileManager();
     final Stream<Path> pathStream = fm.listDirectoryContents(Paths.get(RESOURCES_PATH));
     assertEquals(
-        "Test resources path list should contain root and 6 more paths", 7, pathStream.count());
+        "Test resources path list should contain root and 5 more paths", 6, pathStream.count());
   }
 }
