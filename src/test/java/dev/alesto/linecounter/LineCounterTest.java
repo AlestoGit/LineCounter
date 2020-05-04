@@ -5,6 +5,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
 import java.nio.file.Paths;
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class LineCounterTest {
@@ -53,6 +54,7 @@ public class LineCounterTest {
   }
 
   @Test
+  @Ignore
   public void countLinesEmptyDirectoryTest() {
     String directoryName = "emptyfolder";
     LineCountInfo lineCountInfo =
